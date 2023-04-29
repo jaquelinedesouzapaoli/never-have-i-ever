@@ -1,0 +1,45 @@
+@font-face {
+    font-family: 'Engravers Gothic Regular';
+    src: url(../inc/fonts/Engravers_Gothic_Regular.otf);
+  }
+body {
+    background: #282727;
+    color: #fff;
+    font-family: 'Engravers Gothic Regular';
+    text-align: center;
+    padding: 3rem;
+}
+header{
+    padding: 1rem;
+}
+header .col-sm-3.float-right {
+    text-align: right;
+}
+header .col-sm-6 {
+    display: inline-flex;
+}
+.detail {
+    border: 1px solid #e6e6e6;
+}
+select {
+    padding: 0.7rem;
+    border-radius: 7px;
+    min-width: 30rem;
+}
+button.next-phrase {
+    padding: 0.7rem;
+    border-radius: 7px;
+    background: white;
+    min-width: 30rem;
+}
+button.next-phrase:hover {
+    background: grey;
+    color: white;
+    border: 1px solid white;
+    transition-delay: 250ms;
+}
+h2 {
+    border: 1px solid;
+    margin: 4rem 0;
+    padding: 2rem 0;
+}
